@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181418496599",
+    "project_id": "login-register-firebase-1adf0",
+    "storage_bucket": "login-register-firebase-1adf0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181418496599:android:304af298f6783d08c38912",
+        "android_client_info": {
+          "package_name": "com.example.tasarimcalismasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_oLRV_HN4bKgTqJcfpUXQI0IxyilINpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
