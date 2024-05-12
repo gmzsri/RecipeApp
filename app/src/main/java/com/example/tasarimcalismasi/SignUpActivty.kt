@@ -21,7 +21,7 @@ class signupActivity : AppCompatActivity() {
         binding = ActivitySignUpActivtyBinding .inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnLoginSA.setOnClickListener {
+        binding.btnLoginLA.setOnClickListener {
             val intent = Intent(this@signupActivity,LoginActivity::class.java)
             startActivity(intent)
             finish()
@@ -32,7 +32,7 @@ class signupActivity : AppCompatActivity() {
         ////////////// Initialize Fire Base
         auth = FirebaseAuth.getInstance()
         //////////////// Set on Click Listner on Button SignUp
-        binding.btnSignSA.setOnClickListener {
+        binding.btnSignLA.setOnClickListener {
             UserSignup()              /// here we call function
         }
     }

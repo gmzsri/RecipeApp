@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+         android:icon="@drawable/home"
+        android:id="@+id/home_menu"/>
+
+
+    <item android:title="Categories"
+        android:id="@+id/categorie_menu"
+        android:icon="@drawable/categorie"/>
+
+
+    <item  android:title="Add"
+        android:id="@+id/add_menu"
+        android:icon="@drawable/add"/>
+
+
+    <item android:title="Favorities"
+        android:id="@+id/favorities_menu"
+        android:icon="@drawable/favorite"/>
+
+
+    <item android:title="You"
+        android:id="@+id/you_menu"
+        android:icon="@drawable/you"/>
+
+
+
+</menu>
