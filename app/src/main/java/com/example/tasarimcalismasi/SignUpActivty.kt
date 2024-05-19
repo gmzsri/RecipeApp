@@ -2,6 +2,7 @@ package com.example.tasarimcalismasi
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -18,8 +19,8 @@ class signupActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        binding = ActivitySignUpActivtyBinding .inflate(layoutInflater)
-        setContentView(binding.root)
+        binding = signupActivity .inflate(layoutInflater)
+        setContentView(R.layout.activity_sign_up_activty)
 
         binding.btnLoginLA.setOnClickListener {
             val intent = Intent(this@signupActivity,LoginActivity::class.java)
@@ -61,6 +62,12 @@ class signupActivity : AppCompatActivity() {
                         Toast.makeText(this, "Registration Faild Try Again ${task.exception}", Toast.LENGTH_SHORT).show()
                     }
                 }
+        }
+    }
+
+    companion object {
+        fun inflate(layoutInflater: LayoutInflater): signupActivity {
+            TODO("Not yet implemented")
         }
     }
 }
