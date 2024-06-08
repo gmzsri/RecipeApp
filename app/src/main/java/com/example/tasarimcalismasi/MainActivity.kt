@@ -19,16 +19,8 @@ class MainActivity : AppCompatActivity() {
 // Xml kısmında @işareti res  klasörünü temsil eder
 
 
-        val bottom_nav = findViewById<BottomNavigationView>(R.id.bottom_nav)
 
-        bottom_nav.setOnNavigationItemReselectedListener { item ->
-            val id = item.itemId
-
-            when(id){
-                R.id.add_menu ->{
-
-                }
             }
         }
-    }
-}
+
+

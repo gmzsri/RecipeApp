@@ -8,22 +8,31 @@
     android:background="#086A78"
     tools:context=".SplashScreen">
 
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/startBtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="316dp"
+        android:layout_height="58dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/red_bg"
+        android:orientation="vertical"
+        android:text="Haydi Lezzet Zamanı"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/logoo2"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-29dp" />
+        android:layout_marginTop="-225dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logoo2" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="301dp"
-        android:layout_height="106dp"
-        android:fontFamily="@font/abril_fatface"
-        android:text="Hoşgeldiniz"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="48sp"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="391dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
